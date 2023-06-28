@@ -1,0 +1,10 @@
+[package]
+name = "dbus_signature_lifecycle"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zvariant = "3"
+zbus = { version = "3", features = ["tokio"] }
+zvariant_derive = "3"
+serde = { version = "1.0", features = ["derive"] }
